@@ -2,9 +2,9 @@
     <section id="wrapper">
         <header id="header">
             <a href="{{ "about/" | relURL }}">
-                <img id="avatar" class="2x" src="{{ .Site.Author.avatar }}" width="96" height="96" />
+                <img id="avatar" class="2x" src="{{ .Site.Params.author.avatar }}" width="96" height="96" />
             </a>
-            <h1>{{ .Site.Author.name }}</h1>
+            <h1>{{ .Site.Params.author.name }}</h1>
             <h2>{{ .Site.Params.description | safeHTML }}</h2>
         </header>
     </section>

@@ -16,11 +16,11 @@
 {{ end }}
 
 <footer id="post-meta" class="clearfix">
-    <a href="https://micro.blog/{{ .Site.Author.username }}">
-        <img class="avatar" src="{{ .Site.Author.avatar }}" width="96" height="96" />
+    <a href="https://micro.blog/{{ .Site.Params.author.username }}">
+        <img class="avatar" src="{{ .Site.Params.author.avatar }}" width="96" height="96" />
         <div>
-            <span class="dark">{{ .Site.Author.username }}</span>
-            <span>{{ .Site.Author.name }}</span>
+            <span class="dark">{{ .Site.Params.author.username }}</span>
+            <span>{{ .Site.Params.author.name }}</span>
         </div>
     </a>
 
